@@ -1,0 +1,5 @@
+{
+  "name": "mock-aws-s3",
+  "main": "index.ts",
+  "type": "module"
+}

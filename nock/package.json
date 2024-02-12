@@ -1,0 +1,5 @@
+{
+  "name": "nock",
+  "main": "index.ts",
+  "type": "module"
+}
