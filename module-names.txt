@@ -3,3 +3,4 @@ aws-sdk
 nock
 module
 child_process
+@tensorflow/tfjs-node
