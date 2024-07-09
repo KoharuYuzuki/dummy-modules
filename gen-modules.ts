@@ -15,7 +15,7 @@ moduleNames.forEach(async (moduleName) => {
       name: moduleName,
       main: 'index.ts',
       type: 'module'
-    }, undefined, 2)
+    }, undefined, 2) + '\n'
   )
 
   // write index.ts
