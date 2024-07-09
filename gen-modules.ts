@@ -1,13 +1,8 @@
 import { $ } from 'bun'
 import { join } from 'path'
 
-const moduleNames: string[] = [
-  'mock-aws-s3',
-  'aws-sdk',
-  'nock',
-  'module',
-  'child_process'
-]
+const text = await Bun.file('module-names.txt').text()
+const moduleNames = text.split(new RegExp('\r\n|\n|\r', 'gm')).filter((x) => x !== '')
 
 moduleNames.forEach(async (moduleName) => {
   // make directory

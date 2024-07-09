@@ -1,0 +1,5 @@
+mock-aws-s3
+aws-sdk
+nock
+module
+child_process
