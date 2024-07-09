@@ -6,7 +6,7 @@ const moduleNames = text.split(new RegExp('\r\n|\n|\r', 'gm')).filter((x) => x !
 
 moduleNames.forEach(async (moduleName) => {
   // make directory
-  await $`mkdir -p ${moduleName}`
+  await $`mkdir -p "${moduleName}"`
 
   // write package.json
   await Bun.write(
